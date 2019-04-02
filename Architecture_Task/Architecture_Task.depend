@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1554212548 source:c:\users\vfrum\desktop\coduri\architecture_task\src\persist.cpp
+	"Persist.h"
+
+1554212548 c:\users\vfrum\desktop\coduri\architecture_task\include\persist.h
+
+1554212539 source:c:\users\vfrum\desktop\coduri\architecture_task\src\service.cpp
+	"Service.h"
+
+1554212539 c:\users\vfrum\desktop\coduri\architecture_task\include\service.h
+
+1554213894 source:c:\users\vfrum\desktop\coduri\architecture_task\main.cpp
+	<iostream>
+	"LoginButton.h"
+
+1554213841 c:\users\vfrum\desktop\coduri\architecture_task\include\loginbutton.h
+	"Button.h"
+
+1554213960 c:\users\vfrum\desktop\coduri\architecture_task\include\button.h
+
+1554213915 source:c:\users\vfrum\desktop\coduri\architecture_task\src\button.cpp
+	"Button.h"
+
+1554214042 source:c:\users\vfrum\desktop\coduri\architecture_task\src\loginbutton.cpp
+	"LoginButton.h"
+
+1554221190 source:c:\users\tony_2\desktop\badea\architecture_task\main.cpp
+	<iostream>
+	"LoginButton.h"
+	"Info.h"
+
+1554219501 c:\users\tony_2\desktop\badea\architecture_task\include\loginbutton.h
+	"Button.h"
+
+1554219047 c:\users\tony_2\desktop\badea\architecture_task\include\button.h
+	"Service.h"
+
+1554219466 source:c:\users\tony_2\desktop\badea\architecture_task\src\button.cpp
+	"Button.h"
+
+1554219086 source:c:\users\tony_2\desktop\badea\architecture_task\src\loginbutton.cpp
+	"LoginButton.h"
+	"LoginService.h"
+	<iostream>
+
+1554224673 source:c:\users\tony_2\desktop\badea\architecture_task\src\persist.cpp
+	"Persist.h"
+
+1554224639 c:\users\tony_2\desktop\badea\architecture_task\include\persist.h
+
+1554219611 source:c:\users\tony_2\desktop\badea\architecture_task\src\service.cpp
+	"Service.h"
+
+1554225201 c:\users\tony_2\desktop\badea\architecture_task\include\service.h
+	"Info.h"
+	"Persist.h"
+
+1554222996 source:c:\users\tony_2\desktop\badea\architecture_task\src\loginservice.cpp
+	"LoginService.h"
+	<iostream>
+
+1554225184 c:\users\tony_2\desktop\badea\architecture_task\include\loginservice.h
+	"Service.h"
+	"CredentialsValidator.h"
+	"EncryptionMaster.h"
+
+1554221035 source:c:\users\tony_2\desktop\badea\architecture_task\src\info.cpp
+	"Info.h"
+
+1554221148 c:\users\tony_2\desktop\badea\architecture_task\include\info.h
+
+1554221513 source:c:\users\tony_2\desktop\badea\architecture_task\src\credentialsvalidator.cpp
+	"CredentialsValidator.h"
+
+1554221639 c:\users\tony_2\desktop\badea\architecture_task\include\credentialsvalidator.h
+
+1554222778 c:\users\tony_2\desktop\badea\architecture_task\include\encryptionmaster.h
+
+1554223017 source:c:\users\tony_2\desktop\badea\architecture_task\src\encryptionmaster.cpp
+	"EncryptionMaster.h"
+
+1554224976 source:c:\users\tony_2\desktop\badea\architecture_task\src\userdatapersistence.cpp
+	"UserDataPersistence.h"
+	<iostream>
+
+1554224946 c:\users\tony_2\desktop\badea\architecture_task\include\userdatapersistence.h
+	"Persist.h"
+
