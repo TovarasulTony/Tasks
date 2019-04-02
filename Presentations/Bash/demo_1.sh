@@ -1,3 +1,5 @@
+#source: https://www.youtube.com/watch?v=7uwW20odwEk
+
 mkdir 00 01 02
 ls | cut -d. -f1 |less
 ls | cut -d. -f1 | uniq
