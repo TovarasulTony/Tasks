@@ -5,10 +5,14 @@ Variable
 Command
 Grep Global/RegularExpresion/print
 Methods
+Alias
+disown
 ${}
 $()
 
 ***Draft
+mkdir -p folder/{par1,par2}/{copchil1,copchil2,copchil3}
+mkdir -p folder/{1..100}/{1..100}
 mkdir 00 01 02
 ls | cut -d. -f1 |less
 ls | cut -d. -f1 | uniq
