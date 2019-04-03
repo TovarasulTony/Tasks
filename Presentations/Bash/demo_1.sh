@@ -7,6 +7,7 @@ Grep Global/RegularExpresion/print
 Methods
 Alias
 disown
+git alias
 ${}
 $()
 
