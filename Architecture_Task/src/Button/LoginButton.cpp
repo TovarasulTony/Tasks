@@ -2,12 +2,13 @@
 #include "LoginService.h"
 
 #include<iostream>
+#include<memory>
 
 using namespace std;
 
 LoginButton::LoginButton()
 {
-    mService = new LoginService();
+    mService = make_unique<LoginService>();
 }
 /*
 void LoginButton::HandleButtonPresed()

@@ -2,6 +2,10 @@
 #define BUTTON_H
 
 #include "Service.h"
+#include <memory>
+#include "Enums.h"
+
+using namespace std;
 
 class Button
 {
@@ -12,7 +16,7 @@ class Button
         //virtual void HandleButtonPresed() = 0;
 
     protected:
-        Service* mService;
+        unique_ptr<Service> mService;
 };
 
 #endif // BUTTON_H

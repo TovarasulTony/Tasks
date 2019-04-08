@@ -1,11 +1,12 @@
 #include "LoginService.h"
 #include <iostream>
 #include "UserDataPersistence.h"
+#include<memory>
 using namespace std;
 
 LoginService::LoginService()
 {
-    mPersist = new UserDataPersistence();
+    mPersist = make_unique<UserDataPersistence>();
 }
 /*
 LoginService::~LoginService()
@@ -16,7 +17,7 @@ LoginService::~LoginService()
 
 void LoginService::HandleStuff()
 {
-    int credentials = Info::instance->GetCredentials();
+    int credentials = Info::GetInstance().GetCredentials();
 
     cout<<"Handle Login"<<endl;
     cout<<"Credentials: "<<credentials<<endl;

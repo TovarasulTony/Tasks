@@ -86,3 +86,144 @@
 1554224946 c:\users\tony_2\desktop\badea\architecture_task\include\userdatapersistence.h
 	"Persist.h"
 
+1554723859 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\main.cpp
+	<iostream>
+	"LoginButton.h"
+	"Info.h"
+	<memory>
+	"WeatherButton.h"
+	"ParkingButton.h"
+
+1554219501 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\loginbutton.h
+	"Button.h"
+
+1554723680 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\button.h
+	"Service.h"
+	<memory>
+	"Enums.h"
+
+1554719543 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\service.h
+	"Info.h"
+	"Persist.h"
+	<memory>
+
+1554720211 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\info.h
+
+1554224639 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\persist.h
+
+1554219466 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\button.cpp
+	"Button.h"
+
+1554221513 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\credentialsvalidator.cpp
+	"CredentialsValidator.h"
+
+1554221639 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\credentialsvalidator.h
+
+1554223017 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\encryptionmaster.cpp
+	"EncryptionMaster.h"
+
+1554222778 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\encryptionmaster.h
+
+1554720228 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\info.cpp
+	"Info.h"
+
+1554719296 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\loginbutton.cpp
+	"LoginButton.h"
+	"LoginService.h"
+	<iostream>
+	<memory>
+
+1554225184 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\loginservice.h
+	"Service.h"
+	"CredentialsValidator.h"
+	"EncryptionMaster.h"
+
+1554720014 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\loginservice.cpp
+	"LoginService.h"
+	<iostream>
+	"UserDataPersistence.h"
+	<memory>
+
+1554224946 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\userdatapersistence.h
+	"Persist.h"
+
+1554224673 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\persist.cpp
+	"Persist.h"
+
+1554225285 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\popup.cpp
+	"Popup.h"
+
+1554225285 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\popup.h
+
+1554219611 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\service.cpp
+	"Service.h"
+
+1554225273 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\uifeedback.cpp
+	"UIFeedback.h"
+
+1554225392 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\uifeedback.h
+
+1554224976 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\userdatapersistence.cpp
+	"UserDataPersistence.h"
+	<iostream>
+
+1554219466 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\button\button.cpp
+	"Button.h"
+
+1554719296 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\button\loginbutton.cpp
+	"LoginButton.h"
+	"LoginService.h"
+	<iostream>
+	<memory>
+
+1554720014 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\services\loginservice.cpp
+	"LoginService.h"
+	<iostream>
+	"UserDataPersistence.h"
+	<memory>
+
+1554219611 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\services\service.cpp
+	"Service.h"
+
+1554722548 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\services\weatherservice.cpp
+	"WeatherService.h"
+	<iostream>
+	"ServerCommunication.h"
+
+1554721855 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\weatherservice.h
+	"Service.h"
+	"Enums.h"
+
+1554720861 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\button\weatherbutton.cpp
+	"WeatherButton.h"
+	"WeatherService.h"
+	<memory>
+
+1554720842 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\weatherbutton.h
+	"Button.h"
+
+1554721612 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\enums.h
+
+1554722455 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\servercommunication.cpp
+	"ServerCommunication.h"
+
+1554722465 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\servercommunication.h
+	"Enums.h"
+
+1554723981 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\services\locationservice.cpp
+	"LocationService.h"
+	<memory>
+	<iostream>
+
+1554723204 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\locationservice.h
+	"Service.h"
+	"Enums.h"
+	"ServerCommunication.h"
+
+1554723823 source:c:\users\tony_2\desktop\badea\tasks\architecture_task\src\button\parkingbutton.cpp
+	"ParkingButton.h"
+
+1554723733 c:\users\tony_2\desktop\badea\tasks\architecture_task\include\parkingbutton.h
+	"Button.h"
+	"LocationService.h"
+

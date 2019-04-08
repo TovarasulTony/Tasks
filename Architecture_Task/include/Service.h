@@ -3,6 +3,9 @@
 
 #include "Info.h"
 #include "Persist.h"
+#include<memory>
+
+using namespace std;
 
 class Service
 {
@@ -13,7 +16,7 @@ class Service
         virtual void HandleStuff() = 0;
 
     protected:
-        Persist* mPersist;
+        unique_ptr<Persist> mPersist;
 };
 
 #endif // SERVICE_H

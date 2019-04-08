@@ -10,12 +10,18 @@ Info::~Info()
     //dtor
 }
 */
-Info* Info::instance = nullptr;
-
+/*
 void Info::Instantiate()
 {
     if(!instance)
     {
         instance = new Info();
     }
+}
+*/
+
+Info& Info::GetInstance()
+{
+    static Info instance;
+    return instance;
 }

@@ -5,18 +5,21 @@
 class Info
 {
     public:
-        static void Instantiate();
+        static Info& GetInstance();
         int GetCredentials();
 
     protected:
 
-    public:
-        static Info* instance;
-
     private:
         int mCredentials = 10;
 };
-
+/*
+inline Info& GetInstance()
+{
+    static Info instance;
+    return instance;
+}
+*/
 inline int Info::GetCredentials()
 {
     return mCredentials;
