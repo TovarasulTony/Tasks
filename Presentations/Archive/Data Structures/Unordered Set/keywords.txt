@@ -1,0 +1,3 @@
+hash table
+amortizat
+Self-balancing binary search tree

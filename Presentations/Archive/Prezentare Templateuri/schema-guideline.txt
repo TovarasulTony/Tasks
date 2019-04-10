@@ -1,0 +1,34 @@
+
+***Prezentare
+
+Scurta prezentare a conceptului.
+Motivatie.
+
+Exemple.
+Containers STL.
+Functii.
+Functori.
+
+Ce este in spate?
+Macro.
+Cand e generat.
+
+
+***Stuff:
+Can there be more than one arguments to templates?
+Can we specify default value for template arguments?
+
+What is the difference between function overloading and templates?
+Both function overloading and templates are examples of polymorphism feature of OOP. Function overloading is used when multiple functions do similar operations, templates are used when multiple functions do identical operations.
+
+What happens when there is static member in a template class/function?
+Each instance of a template contains its own static variable. See Templates and Static variables for more details.
+
+What is template specialization?
+
+Can we pass nontype parameters to templates?
+
+specializare
+
+
+***Probleme
