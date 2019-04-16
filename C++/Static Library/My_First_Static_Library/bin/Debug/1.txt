@@ -1,0 +1,12 @@
+main.o    _SampleAddInt
+main.o    _SampleFunction1
+main.o    _SampleFunction2
+AwesomeClass.o    __ZN15awesome_library12AwesomeClassC2Ev
+AwesomeClass.o    __ZN15awesome_library12AwesomeClassC1Ev
+AwesomeClass.o    __ZN15awesome_library12AwesomeClassD2Ev
+AwesomeClass.o    __ZN15awesome_library12AwesomeClassD1Ev
+AwesomeClass.o    __ZN15awesome_library12AwesomeClassD0Ev
+AwesomeClass.o    __ZN15awesome_library12AwesomeClass16GetAwesomeNumberEv
+AwesomeClass.o    __ZTVN15awesome_library12AwesomeClassE
+AwesomeClass.o    __ZTIN15awesome_library12AwesomeClassE
+AwesomeClass.o    __ZTSN15awesome_library12AwesomeClassE

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1555417660 source:c:\users\tony_2\desktop\badea\tasks\c++\library_user\main.cpp
+	<iostream>
+	<AwesomeClass.h>
+
+1555417429 c:\users\tony_2\desktop\badea\tasks\c++\static library\my_first_static_library\include\awesomeclass.h
+
+1555417311 source:c:\users\tony_2\desktop\badea\tasks\c++\library_user\src\lib_tester.cpp
+	"Lib_Tester.h"
+
+1555417173 c:\users\tony_2\desktop\badea\tasks\c++\library_user\include\lib_tester.h
+

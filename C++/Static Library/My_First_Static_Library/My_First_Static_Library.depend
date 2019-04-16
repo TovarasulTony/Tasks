@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1555415454 source:c:\users\tony_2\desktop\badea\tasks\c++\static library\my_first_static_library\src\awesomeclass.cpp
+	"AwesomeClass.h"
+	<iostream>
+
+1555415393 c:\users\tony_2\desktop\badea\tasks\c++\static library\my_first_static_library\include\awesomeclass.h
+
+1555411378 source:c:\users\tony_2\desktop\badea\tasks\c++\static library\my_first_static_library\main.c
+	<iostream>
+
+1555415576 source:c:\users\tony_2\desktop\badea\tasks\c++\static library\my_first_static_library\main.cpp
+	<iostream>
+	"AwesomeClass.h"
+
