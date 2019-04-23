@@ -1,0 +1,5 @@
+﻿  Integrate zlib.cpp
+c:\users\tony_2\desktop\badea\tasks\learn c++\integrate zlib\integrate zlib\integrate zlib.cpp(17): warning C4101: 'have': unreferenced local variable
+c:\users\tony_2\desktop\badea\tasks\learn c++\integrate zlib\integrate zlib\integrate zlib.cpp(16): warning C4101: 'ret': unreferenced local variable
+c:\users\tony_2\desktop\badea\tasks\learn c++\integrate zlib\integrate zlib\integrate zlib.cpp(38): warning C4101: 'ret': unreferenced local variable
+  Integrate zlib.vcxproj -> C:\Users\Tony_2\Desktop\Badea\Tasks\Learn C++\Integrate zlib\x64\Debug\Integrate zlib.exe

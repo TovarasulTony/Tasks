@@ -1,0 +1,4 @@
+﻿  Integrate zlib.cpp
+Integrate zlib.obj : error LNK2019: unresolved external symbol _deflate referenced in function _main
+C:\Users\Tony_2\Desktop\Badea\Tasks\Learn C++\Integrate zlib\Integrate zlib\lib\zlibwapi.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Tony_2\Desktop\Badea\Tasks\Learn C++\Integrate zlib\Debug\Integrate zlib.exe : fatal error LNK1120: 1 unresolved externals
