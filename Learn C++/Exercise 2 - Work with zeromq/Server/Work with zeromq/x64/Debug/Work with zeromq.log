@@ -1,0 +1,5 @@
+﻿Work with zeromq.obj : error LNK2019: unresolved external symbol __imp_zmq_ctx_new referenced in function main
+Work with zeromq.obj : error LNK2019: unresolved external symbol __imp_zmq_socket referenced in function main
+Work with zeromq.obj : error LNK2019: unresolved external symbol __imp_zmq_bind referenced in function main
+C:\Users\Tony_2\Desktop\Badea\Tasks\Learn C++\Exercise 2 - Work with zeromq\Server\Work with zeromq\lib\libzmq.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Tony_2\Desktop\Badea\Tasks\Learn C++\Exercise 2 - Work with zeromq\Server\x64\Debug\Work with zeromq.exe : fatal error LNK1120: 3 unresolved externals
