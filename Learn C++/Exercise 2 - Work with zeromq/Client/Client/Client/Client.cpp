@@ -5,6 +5,7 @@
 #include <iostream>
 #include <zmq.h>
 
+
 using namespace std;
 
 int main()
@@ -20,9 +21,13 @@ int main()
 	memcpy(zmq_msg_data(&message), data.c_str(), dataLen);
 
 	cout << zmq_connect(socket, "tcp://localhost:1234");
+	int error = zmq_errno();
 
 	int cv = zmq_msg_send(&message, socket, 0);
 	cout << endl << cv;
+	cout << endl << "Errno:" << strerror(errno) << endl;
+	cout << endl << "Error: " << strerror(error) << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

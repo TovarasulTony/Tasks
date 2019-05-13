@@ -1,0 +1,34 @@
+1.What is Curl?
+	Curl is command line tool and library for transferring data with URLs. To and from a server, mai multe tipuri de requesturi. Testing rest API, download files.
+	
+
+2.What is Rest API?
+REpresentational
+State
+Ttransfer
+-merge ca un website
+-http
+-javascript object notation/json
+-structurata key value pairs
+-parametri
+//facebook + google
+//instagram
+
+//consume + write
+-autentificare
+-postman???
+-oath/oath2
+
+http request methods
+get
+post
+
+3.What is API? API = Application Programming Interface
+-web dev
+-it allows one piece of software to talk to another
+
+4.What is Oath
+-cand dai credentialele cont etc
+-request token/access token
+-prezinta chestii
+-shared secret
