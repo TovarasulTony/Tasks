@@ -82,3 +82,48 @@ Points: ~1
 
 * **_~~Learn Bash~~_**
 	* [x] **Exercise 1**
+
+
+
+
+## Target settings points:
+#### Finish Junior Training Program:
+Total Points: 20%
+Actual Points: 7%
+
+(20%) fully completed
+(16%) more than 70% completed	    (Best Value, 2% more)
+(10%) more than 50% completed
+(7%)  more than 30% completed  	[X] (Good Value, 1% more)
+(0%)  less than 30% completed
+
+#### Active involvement in development of juniors:
+Status:       	4/10 presentations
+Total Points: 	20%
+Actual Points: 	8%
+
+
+#### Domain / Technical skills:
+Status:       	0/3 points
+Total Points: 	20%
+Actual Points: 	0%
+
+(20%) 3 points
+(15%) 2 points
+(10%) 1 points	(Best Value, 5% more)
+(0%)  0 points
+
+
+## Total %: 
+
+60 %
+
+ 7 %
+ 
+ 8 %
+ 
+ 0 %
+   
+   =
+   
+75 %
