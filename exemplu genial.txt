@@ -1,0 +1,212 @@
+#include <unordered_set>
+#include   <iostream>
+#include    <string>
+#include    <vector>
+#include     <list>
+
+using namespace std;
+namespace
+{
+    class AbilityProjectile{};
+    class FireProjectile: public AbilityProjectile{};
+    class Animation{};
+    class FireAbilityAnimation: public Animation{};
+
+
+}
+
+class Ability
+{
+private:
+    AbilityProjectile* mAbilityProjectile;
+    Animation* mAbilityAnimation;
+    unordered_set<string> mDisableEffects;
+    unordered_set<string> mAbilityEffects;
+    float mWindupTime;
+    float mCooldown;
+    float mDamage;
+public:
+
+    void SetWindupTime(int _windupTime)
+    {
+        mWindupTime = _windupTime;
+    }
+
+    void SetCooldown(int _cooldown)
+    {
+        mCooldown = _cooldown;
+    }
+
+    void SetDamage(int _damage)
+    {
+        mDamage = _damage;
+    }
+
+    void SetAnimation(Animation* _abilityAnimation)
+    {
+        mAbilityAnimation = _abilityAnimation;
+    }
+
+    void SetAbilityProjectile(AbilityProjectile* _abilityProjectile)
+    {
+        mAbilityProjectile = _abilityProjectile;
+    }
+
+    void AddDisableEffect(string _disableEffect)
+    {
+        mDisableEffects.insert(_disableEffect);
+    }
+
+    void AddAbilityEffect(string _abilityEffect)
+    {
+        mAbilityEffects.insert(_abilityEffect);
+    }
+};
+
+class Builder
+{
+  public:
+    virtual void BuildDamage() = 0;
+    virtual void BuildWindupTime() = 0;
+    virtual void BuildCooldown() = 0;
+    virtual void BuildEffects() = 0;
+    virtual void BuildReferences() = 0;
+};
+
+class FireAbilityBuilder: public Builder
+{
+private:
+    Ability* mAbility;
+
+public:
+
+    FireAbility()
+    {
+        mAbility = new Ability;
+    }
+
+    void BuildReferences()
+    {
+        mAbility->SetAbilityProjectile(new FireProjectile());
+        mAbility->SetAnimation(new FireAbilityAnimation());
+    }
+
+    void BuildDamage()
+    {
+        float damage = (g_PlayerLevel * 50) / g_StageLevel;
+        
+        if()
+    }
+};
+
+int main()
+{
+    Ability a;
+    return 0;
+}
+#include <unordered_set>
+#include   <iostream>
+#include    <string>
+#include    <vector>
+#include     <list>
+
+using namespace std;
+namespace
+{
+    class AbilityProjectile{};
+    class FireProjectile: public AbilityProjectile{};
+    class Animation{};
+    class FireAbilityAnimation: public Animation{};
+
+
+}
+
+class Ability
+{
+private:
+    AbilityProjectile* mAbilityProjectile;
+    Animation* mAbilityAnimation;
+    unordered_set<string> mDisableEffects;
+    unordered_set<string> mAbilityEffects;
+    float mWindupTime;
+    float mCooldown;
+    float mDamage;
+public:
+
+    void SetWindupTime(int _windupTime)
+    {
+        mWindupTime = _windupTime;
+    }
+
+    void SetCooldown(int _cooldown)
+    {
+        mCooldown = _cooldown;
+    }
+
+    void SetDamage(int _damage)
+    {
+        mDamage = _damage;
+    }
+
+    void SetAnimation(Animation* _abilityAnimation)
+    {
+        mAbilityAnimation = _abilityAnimation;
+    }
+
+    void SetAbilityProjectile(AbilityProjectile* _abilityProjectile)
+    {
+        mAbilityProjectile = _abilityProjectile;
+    }
+
+    void AddDisableEffect(string _disableEffect)
+    {
+        mDisableEffects.insert(_disableEffect);
+    }
+
+    void AddAbilityEffect(string _abilityEffect)
+    {
+        mAbilityEffects.insert(_abilityEffect);
+    }
+};
+
+class Builder
+{
+  public:
+    virtual void BuildDamage() = 0;
+    virtual void BuildWindupTime() = 0;
+    virtual void BuildCooldown() = 0;
+    virtual void BuildEffects() = 0;
+    virtual void BuildReferences() = 0;
+};
+
+class FireAbilityBuilder: public Builder
+{
+private:
+    Ability* mAbility;
+
+public:
+
+    FireAbility()
+    {
+        mAbility = new Ability;
+    }
+
+    void BuildReferences()
+    {
+        mAbility->SetAbilityProjectile(new FireProjectile());
+        mAbility->SetAnimation(new FireAbilityAnimation());
+    }
+
+    void BuildDamage()
+    {
+        float damage = (g_PlayerLevel * 50) / g_StageLevel;
+        
+        if()
+    }
+};
+
+int main()
+{
+    Ability a;
+    return 0;
+}
