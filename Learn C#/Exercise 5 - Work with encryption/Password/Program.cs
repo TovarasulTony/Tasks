@@ -27,7 +27,8 @@ namespace Password
 
             //----
 
-            ICryptoTransform decryptor = aesAlg.CreateDecryptor(myAes.Key, myAes.IV);
+            Aes aesAlg_2 = Aes.Create();
+            ICryptoTransform decryptor = aesAlg_2.CreateDecryptor(myAes.Key, myAes.IV);
             MemoryStream msDecrypt = new MemoryStream(encrypted);
             CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read);
             StreamReader srDecrypt = new StreamReader(csDecrypt);
