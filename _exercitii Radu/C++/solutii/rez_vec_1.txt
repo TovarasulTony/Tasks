@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   
+    int n, v[100],k;
+    //1) Se citeste n;
+    cin>>n;
+    //2) Se citesc n elemente care sa fie introduse intr-un vector;
+    for(int i = 1; i <= n; i++)
+    {
+        cin>>v[i];
+    }
+    //3) Se citeste un k;
+    cin>>k;
+    
+    
+    //4) Se cere inlocuirea tuturor 0-urilor din vector cu valoarea k;
+    for(int i = 1; i <= n;++i)//iau fiecare element la rand
+    {
+        if(v[i]==0)//daca un element care este egal cu 0
+        {
+            v[i]=k;//atunci il fac egal cu k
+        }
+    }
+    
+    
+    for(int i = 1; i<=10; i++)//acest for are ca scop simpla afisare a elementelor v-ului pentru a testa comportamentul
+        cout<<v[i]<<" ";
+
+    return 0;
+}

@@ -1,0 +1,10 @@
+1) Se citeste n;
+2) Se citesc n elemente care sa fie introduse intr-un vector;
+3) Se citeste un k;
+
+4) Se cere inlocuirea tuturor 0-urilor din vector cu valoarea k;
+
+HINT:
+un mic hint sau exemplu asemanator se gaseste aici: 
+
+REZOLVARE:
