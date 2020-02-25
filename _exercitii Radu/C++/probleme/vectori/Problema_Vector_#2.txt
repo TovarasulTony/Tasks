@@ -1,0 +1,6 @@
+1) Se citeste n;
+2) Se citesteste v cu n elementelor
+3) Se citeste k si m
+4) Sa se interschimbe valoarea de la pozitia k cu valoarea de la pozitia m
+
+Rezolvare:
