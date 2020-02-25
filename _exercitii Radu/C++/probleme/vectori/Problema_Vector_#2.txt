@@ -4,3 +4,4 @@
 4) Sa se interschimbe valoarea de la pozitia k cu valoarea de la pozitia m
 
 Rezolvare:
+https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/solutii/vectori/Rezolvare_Problema_Vector_%232.txt
