@@ -5,7 +5,7 @@
 4) Se cere inlocuirea tuturor 0-urilor din vector cu valoarea k;
 
 HINT:
-un mic hint sau exemplu asemanator se gaseste aici: https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/exemple/vectori/vec_ex_1.txt
+un mic hint sau exemplu asemanator se gaseste aici: https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/solutii/vectori/Rezolvare_Problema_Vector_%231.txt
 
 REZOLVARE:
-https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/solutii/rez_vec_1.txt
+https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/exemple/vectori/Exemplu_Vectori_%231.txt
