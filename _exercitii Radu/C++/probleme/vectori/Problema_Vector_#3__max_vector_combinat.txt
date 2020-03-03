@@ -1,0 +1,27 @@
+1) Se citeste n;
+2) Se citesteste v1 cu n elemente
+3) Se citesteste v2 cu n elemente
+4) Se declara un v3 cu maxim 100 de elemente
+5) Sa se puna in v3 elemente din v1 si v2 astfel: se ia fiecare pozitie la rand, si de pe o pozitie, cum ar fi pozitia 2 se ia cel mai mare elment dinte v1 pozitia 2 si v2 pozitia 2 si se pune in v3 pozitia 2.
+
+Mentiuni:
+Am formulat-o naspa probabil, daca ai sugestii cum sa o formulez mai ok, le ascult.
+
+Exemple:
+
+	Input:
+	N = 10
+	v1 = 7 8 5 2 9 0 1 2 7 3 
+	v2 = 1 8 2 5 6 3 9 4 3 7
+	Output: 
+	v3 = 7 8 5 5 9 3 9 4 9 7
+
+
+	Input:
+	N = 7
+	v1 = 9 9 6 9 9 2 1 
+	v2 = 0 9 9 7 4 9 9
+	Output: 
+	v3 = 9 9 9 9 9 9 9
+
+
