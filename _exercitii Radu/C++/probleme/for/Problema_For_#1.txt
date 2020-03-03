@@ -1,0 +1,29 @@
+1) Se da N ca input;
+2) Sa se afiseze pe pozitii impare (1,3,5...) numerele impare in ordine DESCRESCATOARE din intervalul [0, N-1];
+3) Sa se afiseze pe pozitii pare (2,4,6...) numerele pare in ordine CRESCATOARE din intervalul [0, N-1];
+
+Mentiuni:
+Nu ai nevoie de un array. Poti folosi unul daca iti este mai usor.
+
+Exemple:
+
+	Input:
+	N = 10
+
+	Output:
+	9 0 7 2 5 4 3 6 1 8
+
+
+	Input:
+	N = 20
+
+	Output:
+	19 0 17 2 15 4 13 6 11 8 9 10 7 12 5 14 3 16 1 18
+
+
+
+HINT:
+TBD
+
+REZOLVARE:
+TBD
