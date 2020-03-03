@@ -1,9 +1,9 @@
-#Radu's daily problem
+# Radu's daily problem
 
-[] Monday
-[x] Tuesday
-[] Wednesday
-[] Thursday
-[] Friday
-[] Saturday
-[] Sunday
+- [ ] Monday
+- [x] Tuesday
+- [ ] Wednesday
+- [ ] Thursday
+- [ ] Friday
+- [ ] Saturday
+- [ ] Sunday
