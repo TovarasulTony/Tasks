@@ -1,0 +1,45 @@
+class Calculator
+{
+	public:
+	
+	float a;
+	float b;
+	
+	float Adunare()
+	{
+		retunr a+b;
+	}
+	
+	float Scadere()
+	{
+		//asta o fac cu mentiunea din cerinta; asta este doar un mod, daca vrei sa stii si altele ma anunti
+		float c = a-b;
+		if(c < 0)
+			c*=-1;
+		retunr c;
+	}
+	
+	float Inmultire()
+	{
+		retunr a*b;
+	}
+	
+	float Impartire()
+	{
+		if(b == 0)
+		{
+			cout<<"Eroare, se incearca impartirea la 0!!!"<<endl;
+		}
+		retunr a/b;
+	}
+	
+	float Putere()
+	{
+		int putere = 1;
+		for(int i = 1; i <= b; ++i)
+		{
+			putere*=a;
+		}
+		retunr putere;
+	}
+};

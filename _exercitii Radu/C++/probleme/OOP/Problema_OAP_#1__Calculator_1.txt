@@ -1,13 +1,13 @@
-Aceasta o sa fie o problema dintr-un sir de probleme legate. Asta inseamna ca rezolvarea de aici o vei folosi mai departe!!
+Aceasta o sa fie o problema dintr-un sir de probleme legate. Asta inseamna ca rezolvarea de aici o vei folosi mai departe!! Ce iti sugerez sa faci este sa iei pas cu pas sa vezi ca iti merg pe rand cerintele.
 
 Task:
 - Creaza o clasa numita Calculator
-- Aceasta clasa va avea doua variabile membre de tip float(a,b)
+- Aceasta clasa va avea doua variabile membre de tip float, publice(a,b)
 - Sa faci functii in aceasta clasa, ca atunci cand sunt apelate, ele sa returneze urmatoarele operatii intre membii:
 	* Adunare
 	* Inmultire
-	* Scadere (a-b)
-	* Impartire (a/b) -mentiune: nu poti imparti la 0, verifica daca b este egal cu 0, daca este, nu o sa faci impartirea si o sa afisezi eroare pe ecran
+	* Scadere (a-b) -mentiune: daca ti se pare prea simplu ce pot iface pt a spori dificultatea este sa returnezi mereu nr pozitiv adica (daca B e mai mare ca A e clar ca o sa fie negativ, atunci o sa faci B-A in loc de A-B)
+	* Impartire (a/b) -mentiune: nu poti imparti la 0, verifica daca b este egal cu 0, daca este, nu o sa faci impartirea, o sa returnezi 0 si o sa afisezi eroare pe ecran
 	* Putere (a^b) <=> a la puterea b -mentiune: sunt functii care fac asta, eu vreau sa implementezi folosind operatii si ce mai stii pana acum legat de programare
 	
 HINT:
