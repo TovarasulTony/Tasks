@@ -1,5 +1,5 @@
-1) Se citeste n;
-2) Se citesc n elemente care sa fie introduse intr-un vector;
+1) Se da N ca input;
+2) Se se dau N elemente ca input sa fie introduse intr-un ARRAY; (P.s.: Andreea obisnuiestete ca sunt aceleasi chestii)
 3) Se citeste un k;
 
 4) Se cere inlocuirea tuturor 0-urilor din vector cu valoarea k;
