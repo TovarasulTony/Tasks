@@ -13,3 +13,5 @@
 
 Probleme culese si dragute:
 http://www.codeabbey.com/index/task_view/sum-in-loop
+http://www.codeabbey.com/index/task_view/min-of-two
+http://www.codeabbey.com/index/task_view/maximum-of-array
