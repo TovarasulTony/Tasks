@@ -9,3 +9,7 @@
 - [ ] Friday
 - [ ] Saturday
 - [ ] Sunday
+
+
+Probleme culese si dragute:
+http://www.codeabbey.com/index/task_view/sum-in-loop
