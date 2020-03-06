@@ -19,3 +19,5 @@ Probleme culese si dragute:
 
 
 Cont codewars: https://www.codewars.com/users/AfyLynx
+
+CMD pt tony:  git add -A; git commit -m "lazy commit";git push;clear;git status
