@@ -1,11 +1,47 @@
-1) Se da N ca input;
-2) Se se dau N elemente ca input sa fie introduse intr-un ARRAY; (P.s.: Andreea obisnuiestete ca sunt aceleasi chestii)
-3) Se citeste un k;
+TAGS:
+POINTERI
 
-4) Se cere inlocuirea tuturor 0-urilor din vector cu valoarea k;
+ENUNT:
+Mai jos este un COD(spooky). 
+A) Fara sa rulezi codul, scrie undeva:
+	1) Ce se va afisa
+	2) De ce se afiseaza asta
 
-HINT:
-un mic hint sau exemplu asemanator se gaseste aici: https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/solutii/vectori/Rezolvare_Problema_Vector_%231.txt
+Ruleaza codul. Compilator instalat sau https://www.onlinegdb.com/online_c++_compiler
 
-REZOLVARE:
-https://github.com/TovarasulTony/Tasks/blob/master/_exercitii%20Radu/C%2B%2B/exemple/vectori/Exemplu_Vectori_%231.txt
+	3) De ce se afiseaza ce se afiseaza
+
+
+
+B)	CITESTI DUPA CE AI FACUT A!!!
+ Codul nu merge cum se vrea a merge. Se vrea ca prin P2 sa se modifice valoarea lui A. Dar nu acesta este efectul. Modifica codul astfel incat p2 sa il modifice pe A. Dar... vreau sa ii dai lui P2, adresa de memorie a lui A, prin P1.
+Adica nu poti scrie: p2=&a; Dar poti scrie alte chestii si sa modifici codul de mai jos 
+
+
+
+
+CODUL:
+/----------------------\
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a = 1996;
+    int* p1;
+    int* p2;
+    
+    p2 = p1;
+    
+	*p1=500;
+    p1 = &a;
+    
+    *p2 = 700;
+    
+    cout<<a;
+    return 0;
+}
+
+\----------------------/
