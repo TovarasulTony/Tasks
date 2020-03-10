@@ -1,5 +1,15 @@
 # Radu's daily problem
 
+### 09.03 - 15.03
+
+- [x] Monday      - 1: Problema_OOP_#1__Calculator_1.txt
+- [x] Tuesday     - 1: http://www.codeabbey.com/index/task_view/sum-in-loop
+- [ ] Wednesday
+- [ ] Thursday
+- [ ] Friday  
+- [ ] Saturday
+- [ ] Sunday
+
 ### 01.03 - 07.03
 
 - [ ] Monday
@@ -12,7 +22,7 @@
 
 
 Probleme culese si dragute:
-- http://www.codeabbey.com/index/task_view/sum-in-loop
++ http://www.codeabbey.com/index/task_view/sum-in-loop
 - http://www.codeabbey.com/index/task_view/min-of-two
 - http://www.codeabbey.com/index/task_view/maximum-of-array
 
