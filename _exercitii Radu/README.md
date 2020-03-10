@@ -21,13 +21,13 @@
 - [ ] Sunday
 
 
-Probleme culese si dragute:
+### Probleme culese si dragute:
 - ~~http://www.codeabbey.com/index/task_view/sum-in-loop~~
 - http://www.codeabbey.com/index/task_view/min-of-two
 - http://www.codeabbey.com/index/task_view/maximum-of-array
 
 
 
-Cont codewars: https://www.codewars.com/users/AfyLynx
+**Cont codewars:** https://www.codewars.com/users/AfyLynx
 
-CMD pt tony:  git add -A; git commit -m "lazy commit";git push;clear;git status
+**CMD pt tony:**  *git add -A; git commit -m "lazy commit";git push;clear;git status*
