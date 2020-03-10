@@ -1,0 +1,60 @@
+#include <iostream>
+
+using namespace std;
+
+class Calculator {
+    public:
+        float a, b, rezultat, prod = 1;
+        float Adunare()
+        {
+            rezultat = a+b;
+            return rezultat;
+        }
+        float Inmultire()
+        {
+            rezultat = a*b;
+            return rezultat;
+        }
+        float Scadere()
+        {
+            if(a >= b)
+            {
+                rezultat = a-b;
+                return rezultat;
+            }
+            else
+            {
+                rezultat = b-a;
+                return rezultat;
+            }
+        }
+        float Impartire()
+        {
+            if(b==0)
+                return 0;
+            else
+            {
+                rezultat = a/b;
+                return rezultat;
+            }
+        }
+        float Putere()
+        {
+            for(int i = 0; i<b; i++)
+                prod = prod * a;
+            return prod;
+        }
+};
+
+int main()
+{
+    Calculator obj;
+    obj.a = 5;
+    obj.b = 6;
+    cout<<obj.Adunare()<<endl;
+    cout<<obj.Inmultire()<<endl;
+    cout<<obj.Scadere()<<endl;
+    cout<<obj.Impartire()<<endl;
+    cout<<obj.Putere()<<endl;
+}
+
