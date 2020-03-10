@@ -1,0 +1,118 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+//vector elemente de la 1 la 10
+// il trimiti intr-o functie ca parametru, al doilea parametru o sa fie un x citit de la tastatura
+//functie in care pui valoarea X la pozitia 3
+
+void func(int _param_v[100], int x)
+{
+    _param_v[3] = x;
+}
+
+int main()
+{
+    int v[100], x;
+    cin>>x;
+    for(int i = 1; i<=10; i++)
+        v[i] = i;
+    func(v, x);
+    for(int i = 1; i<=10; i++)
+        cout<<v[i]<<"   ";
+    
+    
+    return 0;
+}
+
+
+
+
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int a = 1996;
+class om
+{
+    public:
+    string nume;
+    int varsta;
+    
+    void Age()
+    {
+        varsta++;
+    }
+    
+    static void Vorbeste()
+    {
+        cout<<"Hey! Sunt un om!"<<endl;
+    }
+};
+
+class avocat: public om
+{
+    
+    public:
+    string diploma;
+};
+
+void Vorbeste()
+{
+    cout<<"Aha... vorbesc!?"<<endl;
+}
+int main()
+{
+    /*
+    om Tony, Radu;
+    Tony.varsta = 10;
+    Tony.nume = "Antonio";
+    
+    Radu.varsta = 23;
+    Radu.nume = "Andrei";
+    if(Tony.varsta > Radu.varsta)
+    
+        cout<<"Tony este mai batran"<<endl;
+    else
+        cout<<"Radu este mai mare"<<endl;
+    
+    
+    Tony.Age();
+    Tony.Age();
+    Tony.Age();
+    
+    
+    Radu.Age();
+    Radu.Age();
+    
+    cout<<Tony.varsta<<endl;
+    cout<<Radu.varsta<<endl;
+    om::Vorbeste();
+    */
+    avocat Marcian;
+    Marcian.varsta = 45;
+    Vorbeste();
+    Marcian.Vorbeste();
+    int a = 27;
+    a--;
+    cout<<a<<endl;
+    cout<<::a;
+    return 0;
+}
